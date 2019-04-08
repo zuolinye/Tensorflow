@@ -15,7 +15,6 @@ MODEL_SAVE_PATH="./model/"
 MODEL_NAME="mnist_model" 
 
 def backward(mnist):
-    # 使用placeholder进行占位
     x = tf.placeholder(tf.float32,[
 	BATCH_SIZE,
 	mnist_lenet5_forward.IMAGE_SIZE,
